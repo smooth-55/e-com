@@ -1,0 +1,21 @@
+*{
+  margin: 10;
+  padding: 0;
+}
+
+.carousel .carousel-item {
+  height: 750px;
+}
+
+.carousel-item{
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    min-height: 500px;
+    height: 100% !important;
+    width:  100% !important;
+}
